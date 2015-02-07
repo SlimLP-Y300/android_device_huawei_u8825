@@ -30,7 +30,3 @@ TARGET_SCREEN_WIDTH := 480
 # Device name
 PRODUCT_NAME := slim_u8825
 PRODUCT_DEVICE := u8825
-
-# CM packages
-PRODUCT_PACKAGES += \
-    Torch
