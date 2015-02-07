@@ -91,6 +91,7 @@ LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 include $(BUILD_SHARED_LIBRARY)
 
 # The audio policy is implemented on top of legacy policy code
+ifeq ($(USE_LEGACY_AUDIO_POLICY), 1)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
@@ -121,6 +122,7 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 include $(BUILD_SHARED_LIBRARY)
+endif
 
 # Load audio_policy.conf to system/etc/
 include $(CLEAR_VARS)
