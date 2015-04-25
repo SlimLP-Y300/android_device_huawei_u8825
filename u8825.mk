@@ -16,9 +16,9 @@
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.confg.hw_appfsversion=U8825V5_0_SYSIMG \
-    ro.confg.hw_appsbootversion=U8825V5_0_APPSBOOT \
-    ro.confg.hw_appversion=U8825V5_0_KERNEL
+    ro.confg.hw_appfsversion=U8825V5_1_SYSIMG \
+    ro.confg.hw_appsbootversion=U8825V5_1_APPSBOOT \
+    ro.confg.hw_appversion=U8825V5_1_KERNEL
 
 PRODUCT_PROPERTY_OVERRIDES += \
     gsm.version.baseband=1040 \
