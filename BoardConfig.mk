@@ -29,3 +29,6 @@ TARGET_HAS_QACT := false
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8825/bluetooth
+
+# Disable DEXPREOPT to allow space for GApps
+WITH_DEXPREOPT := false
